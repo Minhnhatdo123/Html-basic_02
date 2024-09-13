@@ -418,7 +418,7 @@ a{
 
 .course-list .course_item:hover
 {
-    background: transparent;
+    border-color: transparent;
     box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.05);
 }
 
@@ -428,7 +428,7 @@ a{
     width: calc(100% + 2px);
     object-fit: cover;
     margin: -1px; 
-/* */
+/* khắc phục hình ảnh border*/
     border-radius: 12px 12px 0 0;
 }
 
