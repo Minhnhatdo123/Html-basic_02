@@ -61,6 +61,19 @@ a{
     color: #171100;
 }
 
+.line-clamp
+{
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp,1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.break-all
+{
+    word-break: break-all;
+}
+
 /* Header */
 .header
 {
@@ -448,6 +461,8 @@ a{
 
 .item_info .item_title a
 {
+    padding-right: 6px;
+    /*Tránh title gần sát với value*/
     color: #171100;
     font-size: 1.8rem;
     font-weight: 600;
@@ -455,13 +470,7 @@ a{
     padding-right: 6px;
 }
 
-.line-clamp
-{
-    display: -webkit-box;
-    -webkit-line-clamp: var(--line-clamp,1);
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
+
 
 .item_info .line-2
 {
