@@ -767,7 +767,7 @@ a{
 .blog_info .blog_date
 {
     position: relative;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     color: #5F5B53;
     font-size: 1.4rem;
