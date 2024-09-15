@@ -748,6 +748,11 @@ a{
     flex-shrink: 0;
 }
 
+.blog .blog_item:hover
+{
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+
 .blog_item .blog_img
 {   
     width: 100%;
