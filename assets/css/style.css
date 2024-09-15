@@ -526,7 +526,7 @@ a{
 {
     display: flex;
     overflow: hidden;
-    
+
 }
 
 .feedback .feedback_item
@@ -534,7 +534,7 @@ a{
     display: flex;
     flex-shrink: 0;
     width: 100%;
-   
+/* flex-shrink:0 thể hiện sự không co giãn */
 }
 
 .feedback_info .feedback_avatar
@@ -677,6 +677,7 @@ a{
 /*======= Features 2 ======== */
 .features-2nd{
     margin-top:70px;
+/*65 + 70 + 65 = 200*/
 }
 
 .features-2nd .body
@@ -758,6 +759,9 @@ a{
 .blog_item .blog_info
 {
     padding: 20px 20px 28px ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .blog_info .blog_date
